@@ -1,0 +1,14 @@
+{
+  "name": "{{ cookiecutter.project_slug }}", 
+  "description": "{{ cookiecutter.project_short_description }}",
+  "version": "1.0.0",
+  "main": "hello-world-handler.js",
+  "repository": "https://github.com/acme/{{ cookiecutter.project_slug }}",
+  "author": "Acme Inc.",
+  "license": "{{ cookiecutter.open_source_license }}",
+  "dependencies": {
+    "aws-embedded-metrics": "^2.0.4"
+  },
+  "scripts": {
+  }
+}
